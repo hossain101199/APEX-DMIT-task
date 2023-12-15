@@ -24,6 +24,8 @@
 
    The `companyAPI` configuration is created using createApi from @reduxjs/toolkit/query/react. It handles asynchronous queries for fetching company data.
 
+![Home page](/public/homePage.png)
+
 ## Installation
 
 To install and run APEX-DMIT-task locally, follow these steps:
