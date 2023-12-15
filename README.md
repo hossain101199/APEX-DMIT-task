@@ -2,6 +2,33 @@
 
 # APEX-DMIT-task
 
+## Features:
+
+**Data Retrieval:**
+
+- Utilized the provided API endpoints to fetch company data.
+- Implemented Redux for state management, ensuring data persistence on page refresh.
+
+**Display and Pagination:**
+
+- Rendered the company data in a table with columns for company name, phone, address, city, and status.
+- Implemented pagination with 5 companies per page for efficient data presentation.
+
+**Filtering:**
+
+- Integrated filter options for company name and status.
+- Dynamically updated the displayed data based on applied filters.
+
+**Debounced Input Handling:**
+
+- Employed a debounce function for smooth handling of filter inputs, enhancing user experience.
+
+**Next.js Integration:**
+
+- Developed the front end using Next.js as per the provided instructions.
+
+## Component Description:
+
 1. `Home` Component
 
    The `Home` component serves as the main view for displaying company data. It includes filtering options, a table for data presentation, and pagination controls.
