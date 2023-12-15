@@ -1,8 +1,8 @@
 import { setCompanyFilterParams } from "@/redux/features/company/companySlice";
 import debounce from "@/utils/debounce";
 import { useDispatch, useSelector } from "react-redux";
+import SearchInputField from "../atoms/SearchInputField";
 import SelectInputField from "../atoms/SelectInputField";
-import SearchInputField from "../atoms/searchInputField";
 
 const CompanyFilterOption = () => {
   const filteredData = useSelector((state) => state.companyFilterParams);
